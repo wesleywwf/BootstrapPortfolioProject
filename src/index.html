@@ -9,18 +9,30 @@
   <title>HTML Portfolio</title>
 </head>
 <body>
-  <div class="navbar navbar-static-top">
+  <nav class="navbar navbar-static-top">
     <div class="container">
-      <div class="row">
-        <div class="navbar-brand"> <a id="head" href="Homepage.html">Wesley</a> 
-        </div> 
-        <ul class="nav navbar-nav navbar-right">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-collapse-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Wesley</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="portfolio-collapse-menu">
+        <ul class="nav navbar-nav">
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
         </ul>
       </div>
+      <!-- /.navbar-collapse -->
     </div>
-  </div>
+    <!-- /.container-fluid -->
+  </nav>
 
   <div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -65,7 +77,6 @@
   </div>
 
   <element class="marketing">
-    <div class="footer"><div class="container"><h3>I invite</h3><p>Call me</p></div></div>
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -84,6 +95,13 @@
           <p>Compre no site.</p>
         </div>
       </div>
+    </div>
+  </element>
+
+  <element class="footer">
+    <div class="container">
+      <h3>Entre em Contato</h3>
+      <p>Entre em contato por email ou telefone.</p>
     </div>
   </element>
 
